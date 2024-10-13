@@ -56,5 +56,17 @@ body {
   text-align: center;
   color: white;
   line-height: 20px;
-   
+  animation: fillBar 2s forwards;
+        }
+        .barra-container {
+            width: 100%;
+            background-color: #ddd;
+        }
+        @keyframes fillBar {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+.a {
+  cursor: pointer;
 }
